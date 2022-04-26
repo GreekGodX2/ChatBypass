@@ -433,7 +433,7 @@ end)
 spawn(function()
 	while true do
 		wait(2.2)
-		if TextBox.Text ~= nil and spam == 0 then
+		if TextBox.Text ~= nil and TextBox.Text ~= "" and spam == 0 then
 			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(TextBox.Text,"All")
 		else
 
