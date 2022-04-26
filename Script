@@ -3,6 +3,8 @@
 
 -- Instances:
 
+wait(2)
+
 local GreekGodXChatBypass = Instance.new("ScreenGui")
 local Main = Instance.new("ImageLabel")
 local Title = Instance.new("ImageLabel")
@@ -295,8 +297,10 @@ Main.Visible = false
 
 wait(0.5)
 
-Greek_2:TweenPosition(UDim2.new(0.4,0,0.5,0),nil,nil,1)
-Yokai:TweenPosition(UDim2.new(0.6,0,0.5,0),nil,nil,1)
+Greek_2:TweenPosition(UDim2.new(0.4,0,0.5,0),nil,nil,0.5)
+Yokai:TweenPosition(UDim2.new(0.6,0,0.5,0),nil,nil,0.5)
+
+wait(1.5)
 
 Frame.Visible = false
 Main.Visible = true
@@ -429,17 +433,16 @@ spawn(function()
 end)
 
 spawn(function()
-while true do
-	wait(2.2)
-	if TextBox.Text ~= nil and spam == 0 then
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(TextBox.Text,"All")
-	else
+	while true do
+		wait(2.2)
+		if TextBox.Text ~= nil and spam == 0 then
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(TextBox.Text,"All")
+		else
 
+		end
 	end
-end
 end)
 
 Main.Active = true
 Main.Selectable = true
 Main.Draggable = true
-
