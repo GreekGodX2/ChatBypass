@@ -26,12 +26,11 @@ GreekGodXChatBypass.Parent = game.CoreGui
 
 Main.Name = "Main"
 Main.Parent = GreekGodXChatBypass
-Main.Visible = false
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BackgroundTransparency = 1.000
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.283343047, 0, 0.291855484, 0)
-Main.Size = UDim2.new(0.440473884, 0, 0.415291727, 0)
+Main.Position = UDim2.new(0.283343047, 0, 0.291855454, 0)
+Main.Size = UDim2.new(0.250388622, 0, 0.355328649, 0)
 Main.Image = "rbxassetid://3570695787"
 Main.ImageColor3 = Color3.fromRGB(44, 44, 44)
 Main.ScaleType = Enum.ScaleType.Slice
@@ -43,8 +42,8 @@ Title.Parent = Main
 Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Title.BackgroundTransparency = 1.000
 Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0.0220571402, 0, 0.0478219874, 0)
-Title.Size = UDim2.new(0.950858951, 0, 0.104982801, 0)
+Title.Position = UDim2.new(0.0658861175, 0, 0.0478219986, 0)
+Title.Size = UDim2.new(0.85948503, 0, 0.104982801, 0)
 Title.Image = "rbxassetid://3570695787"
 Title.ImageColor3 = Color3.fromRGB(36, 36, 36)
 Title.ScaleType = Enum.ScaleType.Slice
@@ -54,10 +53,10 @@ Title.SliceScale = 0.120
 TextLabel.Parent = Title
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0, 0, 0.0945713297, 0)
-TextLabel.Size = UDim2.new(1, 0, 0.756570995, 0)
+TextLabel.Position = UDim2.new(0.0500000007, 0, 0.100000001, 0)
+TextLabel.Size = UDim2.new(0.899999976, 0, 0.800000012, 0)
 TextLabel.Font = Enum.Font.SourceSansBold
-TextLabel.Text = "GreekGodX Insane Chat Bypass - WHAT DID I JUST LEAK?"
+TextLabel.Text = "GreekGodX Insane Chat Bypass"
 TextLabel.TextColor3 = Color3.fromRGB(203, 203, 203)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -67,8 +66,8 @@ NaziFlagV1.Name = "NaziFlagV1"
 NaziFlagV1.Parent = Main
 NaziFlagV1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 NaziFlagV1.BackgroundTransparency = 1.000
-NaziFlagV1.Position = UDim2.new(0.354916453, 0, 0.251942486, 0)
-NaziFlagV1.Size = UDim2.new(0.285103977, 0, 0.1050933, 0)
+NaziFlagV1.Position = UDim2.new(0.235011414, 0, 0.23109585, 0)
+NaziFlagV1.Size = UDim2.new(0.526734889, 0, 0.1050933, 0)
 NaziFlagV1.Image = "rbxassetid://3570695787"
 NaziFlagV1.ImageColor3 = Color3.fromRGB(36, 36, 36)
 NaziFlagV1.ScaleType = Enum.ScaleType.Slice
@@ -104,8 +103,8 @@ NaziFlagV2.Name = "NaziFlagV2"
 NaziFlagV2.Parent = Main
 NaziFlagV2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 NaziFlagV2.BackgroundTransparency = 1.000
-NaziFlagV2.Position = UDim2.new(0.354916453, 0, 0.421390533, 0)
-NaziFlagV2.Size = UDim2.new(0.285103977, 0, 0.1050933, 0)
+NaziFlagV2.Position = UDim2.new(0.235011414, 0, 0.400543869, 0)
+NaziFlagV2.Size = UDim2.new(0.526734889, 0, 0.1050933, 0)
 NaziFlagV2.Image = "rbxassetid://3570695787"
 NaziFlagV2.ImageColor3 = Color3.fromRGB(36, 36, 36)
 NaziFlagV2.ScaleType = Enum.ScaleType.Slice
@@ -128,8 +127,8 @@ Pornhub.Name = "Pornhub"
 Pornhub.Parent = Main
 Pornhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Pornhub.BackgroundTransparency = 1.000
-Pornhub.Position = UDim2.new(0.354916453, 0, 0.58860898, 0)
-Pornhub.Size = UDim2.new(0.285103977, 0, 0.1050933, 0)
+Pornhub.Position = UDim2.new(0.235011414, 0, 0.567762375, 0)
+Pornhub.Size = UDim2.new(0.526734889, 0, 0.1050933, 0)
 Pornhub.Image = "rbxassetid://3570695787"
 Pornhub.ImageColor3 = Color3.fromRGB(36, 36, 36)
 Pornhub.ScaleType = Enum.ScaleType.Slice
@@ -152,8 +151,8 @@ FuckU.Name = "FuckU"
 FuckU.Parent = Main
 FuckU.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 FuckU.BackgroundTransparency = 1.000
-FuckU.Position = UDim2.new(0.353733391, 0, 0.76028657, 0)
-FuckU.Size = UDim2.new(0.285103977, 0, 0.1050933, 0)
+FuckU.Position = UDim2.new(0.232825592, 0, 0.739439964, 0)
+FuckU.Size = UDim2.new(0.526734889, 0, 0.1050933, 0)
 FuckU.Image = "rbxassetid://3570695787"
 FuckU.ImageColor3 = Color3.fromRGB(36, 36, 36)
 FuckU.ScaleType = Enum.ScaleType.Slice
@@ -192,6 +191,7 @@ Greek.Size = UDim2.new(0.0929162204, 0, 0.154206097, 0)
 Greek.Visible = false
 Greek.Image = "http://www.roblox.com/asset/?id=9415942818"
 
+Main.Visible = false
 Greek.Visible = true
 wait(2)
 Greek.Visible = false
@@ -206,14 +206,14 @@ uis.InputBegan:Connect(function(key)
 			debounce = 2
 			Main.Close:TweenSize(UDim2.new(1,0,-1,0),nil,nil,0.2)
 			wait(0.2)
-			Main:TweenSize(UDim2.new(0.44,0,0,0),nil,nil,0.2)
+			Main:TweenSize(UDim2.new(0.250388622, 0, 0, 0),nil,nil,0.2)
 			wait(0.2)
 			Main.Visible = false
 			debounce = 1
 		elseif debounce == 1 then
 			debounce = 2
 			Main.Visible = true
-			Main:TweenSize(UDim2.new(0.44,0,0.415,0),nil,nil,0.2)
+			Main:TweenSize(UDim2.new(0.250388622, 0, 0.355328649, 0),nil,nil,0.2)
 			wait(0.2)
 			Main.Close:TweenSize(UDim2.new(1,0,0,0),nil,nil,0.2)
 			wait(0.2)
