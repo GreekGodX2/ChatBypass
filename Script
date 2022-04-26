@@ -1,0 +1,318 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local GreekGodXChatBypass = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local Title = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local NaziFlagV1 = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local IP = Instance.new("TextLabel")
+local NaziFlagV2 = Instance.new("ImageButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local Pornhub = Instance.new("ImageButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local FuckU = Instance.new("ImageButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local Close = Instance.new("ImageLabel")
+local Greek = Instance.new("ImageLabel")
+
+--Properties:
+
+GreekGodXChatBypass.Name = "GreekGodX Chat Bypass"
+GreekGodXChatBypass.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = GreekGodXChatBypass
+Main.Visible = false
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BackgroundTransparency = 1.000
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.283343047, 0, 0.291855484, 0)
+Main.Size = UDim2.new(0.440473884, 0, 0.415291727, 0)
+Main.Image = "rbxassetid://3570695787"
+Main.ImageColor3 = Color3.fromRGB(44, 44, 44)
+Main.ScaleType = Enum.ScaleType.Slice
+Main.SliceCenter = Rect.new(100, 100, 100, 100)
+Main.SliceScale = 0.120
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0220571402, 0, 0.0478219874, 0)
+Title.Size = UDim2.new(0.950858951, 0, 0.104982801, 0)
+Title.Image = "rbxassetid://3570695787"
+Title.ImageColor3 = Color3.fromRGB(36, 36, 36)
+Title.ScaleType = Enum.ScaleType.Slice
+Title.SliceCenter = Rect.new(100, 100, 100, 100)
+Title.SliceScale = 0.120
+
+TextLabel.Parent = Title
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.0945713297, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.756570995, 0)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "GreekGodX Insane Chat Bypass - WHAT DID I JUST LEAK?"
+TextLabel.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+NaziFlagV1.Name = "NaziFlagV1"
+NaziFlagV1.Parent = Main
+NaziFlagV1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NaziFlagV1.BackgroundTransparency = 1.000
+NaziFlagV1.Position = UDim2.new(0.354916453, 0, 0.251942486, 0)
+NaziFlagV1.Size = UDim2.new(0.285103977, 0, 0.1050933, 0)
+NaziFlagV1.Image = "rbxassetid://3570695787"
+NaziFlagV1.ImageColor3 = Color3.fromRGB(36, 36, 36)
+NaziFlagV1.ScaleType = Enum.ScaleType.Slice
+NaziFlagV1.SliceCenter = Rect.new(100, 100, 100, 100)
+NaziFlagV1.SliceScale = 0.120
+
+TextLabel_2.Parent = NaziFlagV1
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0999998823, 0, 0.0970845893, 0)
+TextLabel_2.Size = UDim2.new(0.800000012, 0, 0.776676774, 0)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Nazi Flag v1"
+TextLabel_2.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+IP.Name = "IP"
+IP.Parent = Main
+IP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IP.BackgroundTransparency = 1.000
+IP.Position = UDim2.new(0.682622492, 0, 0.910597384, 0)
+IP.Size = UDim2.new(0.306840092, 0, 0.0558987036, 0)
+IP.Font = Enum.Font.SourceSansBold
+IP.Text = "GREEK IP: 192.168.0.14"
+IP.TextColor3 = Color3.fromRGB(203, 70, 70)
+IP.TextScaled = true
+IP.TextSize = 14.000
+IP.TextWrapped = true
+
+NaziFlagV2.Name = "NaziFlagV2"
+NaziFlagV2.Parent = Main
+NaziFlagV2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NaziFlagV2.BackgroundTransparency = 1.000
+NaziFlagV2.Position = UDim2.new(0.354916453, 0, 0.421390533, 0)
+NaziFlagV2.Size = UDim2.new(0.285103977, 0, 0.1050933, 0)
+NaziFlagV2.Image = "rbxassetid://3570695787"
+NaziFlagV2.ImageColor3 = Color3.fromRGB(36, 36, 36)
+NaziFlagV2.ScaleType = Enum.ScaleType.Slice
+NaziFlagV2.SliceCenter = Rect.new(100, 100, 100, 100)
+NaziFlagV2.SliceScale = 0.120
+
+TextLabel_3.Parent = NaziFlagV2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0999998823, 0, 0.0970845893, 0)
+TextLabel_3.Size = UDim2.new(0.800000012, 0, 0.776676774, 0)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Nazi Flag v2"
+TextLabel_3.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+Pornhub.Name = "Pornhub"
+Pornhub.Parent = Main
+Pornhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pornhub.BackgroundTransparency = 1.000
+Pornhub.Position = UDim2.new(0.354916453, 0, 0.58860898, 0)
+Pornhub.Size = UDim2.new(0.285103977, 0, 0.1050933, 0)
+Pornhub.Image = "rbxassetid://3570695787"
+Pornhub.ImageColor3 = Color3.fromRGB(36, 36, 36)
+Pornhub.ScaleType = Enum.ScaleType.Slice
+Pornhub.SliceCenter = Rect.new(100, 100, 100, 100)
+Pornhub.SliceScale = 0.120
+
+TextLabel_4.Parent = Pornhub
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0999998823, 0, 0.0970845893, 0)
+TextLabel_4.Size = UDim2.new(0.800000012, 0, 0.776676774, 0)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Pornhub"
+TextLabel_4.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+FuckU.Name = "FuckU"
+FuckU.Parent = Main
+FuckU.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FuckU.BackgroundTransparency = 1.000
+FuckU.Position = UDim2.new(0.353733391, 0, 0.76028657, 0)
+FuckU.Size = UDim2.new(0.285103977, 0, 0.1050933, 0)
+FuckU.Image = "rbxassetid://3570695787"
+FuckU.ImageColor3 = Color3.fromRGB(36, 36, 36)
+FuckU.ScaleType = Enum.ScaleType.Slice
+FuckU.SliceCenter = Rect.new(100, 100, 100, 100)
+FuckU.SliceScale = 0.120
+
+TextLabel_5.Parent = FuckU
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0999998823, 0, 0.0970845893, 0)
+TextLabel_5.Size = UDim2.new(0.800000012, 0, 0.776676774, 0)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Fuck U"
+TextLabel_5.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0, 0, 1.00000012, 0)
+Close.Size = UDim2.new(1, 0, 0, 0)
+Close.Image = "rbxassetid://3570695787"
+Close.ScaleType = Enum.ScaleType.Slice
+Close.SliceCenter = Rect.new(100, 100, 100, 100)
+Close.SliceScale = 0.120
+
+Greek.Name = "Greek"
+Greek.Parent = GreekGodXChatBypass
+Greek.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Greek.Position = UDim2.new(0.455829322, 0, 0.421538949, 0)
+Greek.Size = UDim2.new(0.0929162204, 0, 0.154206097, 0)
+Greek.Visible = false
+Greek.Image = "http://www.roblox.com/asset/?id=9415942818"
+
+Greek.Visible = true
+wait(2)
+Greek.Visible = false
+Main.Visible = true
+
+local uis = game:GetService("UserInputService")
+local debounce = 0
+
+uis.InputBegan:Connect(function(key)
+	if key.KeyCode == Enum.KeyCode.RightControl then
+		if debounce == 0 then
+			debounce = 2
+			Main.Close:TweenSize(UDim2.new(1,0,-1,0),nil,nil,0.2)
+			wait(0.2)
+			Main:TweenSize(UDim2.new(0.44,0,0,0),nil,nil,0.2)
+			wait(0.2)
+			Main.Visible = false
+			debounce = 1
+		elseif debounce == 1 then
+			debounce = 2
+			Main.Visible = true
+			Main:TweenSize(UDim2.new(0.44,0,0.415,0),nil,nil,0.2)
+			wait(0.2)
+			Main.Close:TweenSize(UDim2.new(1,0,0,0),nil,nil,0.2)
+			wait(0.2)
+			debounce = 0
+		end
+	end
+end)
+
+local mouse = game.Players.LocalPlayer:GetMouse()
+
+for i, v in pairs(Main:GetChildren()) do
+	if v:isA("ImageButton") then
+		v.MouseEnter:Connect(function()
+			v.ImageColor3 = Color3.fromRGB(42,42,42)
+		end)
+		v.MouseLeave:Connect(function()
+			v.ImageColor3 = Color3.fromRGB(36,36,36)
+		end)
+	end
+end
+
+function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+
+counter = 0
+
+NaziFlagV1.MouseButton1Click:Connect(function()
+	local message1 = "🔴⚫⚫🔴🔴🔴🔴N" 
+	local message2 = "🔴⚫⚫🔴⚫⚫⚫"
+	local message3 = "🔴⚫⚫🔴⚫⚫⚫A"
+	local message4 = "🔴🔴🔴🔴🔴🔴🔴"
+	local message5 = "⚫⚫⚫🔴⚫⚫🔴Z"
+	local message6 = "⚫⚫⚫🔴⚫⚫🔴"
+	local message7 = "🔴🔴🔴🔴⚫⚫🔴I Germany"
+
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message1,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message2,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message3,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message4,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message5,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message6,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message7,"All")
+end)
+
+NaziFlagV2.MouseButton1Click:Connect(function()
+	local message1 = "🔴🔴🔴🔴🔴🔴🔴🔴🔴"
+	local message2 = "🔴🔴⚪🔴⚪⚪⚪🔴🔴N" 
+	local message3 = "🔴🔴⚪🔴⚪🔴🔴🔴🔴A"
+	local message4 = "🔴🔴⚪⚪⚪⚪⚪🔴🔴Z"
+	local message5 = "🔴🔴🔴🔴⚪🔴⚪🔴🔴I"
+	local message6 = "🔴🔴⚪⚪⚪🔴⚪🔴🔴Germany"
+	local message7 = "🔴🔴🔴🔴🔴🔴🔴🔴🔴"
+
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message1,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message2,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message3,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message4,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message5,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message6,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message7,"All")
+end)
+
+Pornhub.MouseButton1Click:Connect(function()
+	local message1 = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫"
+	local message2 = "⚫🍊🍊🍊⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫H"
+	local message3 = "⚫🍊⚫🍊⚫⚫⚫🍊🍊⚫⚫⚫⚫🍊🍊⚫⚫🍊🍊🍊⚫⚫⚫U"
+	local message4 = "⚫🍊🍊🍊⚫⚫🍊⚫⚫🍊⚫⚫🍊⚫⚫⚫⚫🍊⚫⚫🍊⚫⚫B"
+	local message5 = "⚫🍊⚫⚫⚫⚫🍊⚫⚫🍊⚫⚫🍊⚫⚫⚫⚫🍊⚫⚫🍊⚫⚫"
+	local message6 = "⚫🍊⚫⚫⚫⚫⚫🍊🍊⚫⚫⚫🍊⚫⚫⚫⚫🍊⚫⚫🍊⚫⚫"
+	local message7 = "⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫"
+
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message1,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message2,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message3,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message4,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message5,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message6,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message7,"All")
+end)
+
+FuckU.MouseButton1Click:Connect(function()
+	local message1 = "🔲🔲🔲⚫🔲⚫🔲⚫🔲🔲🔲⚫🔲⚫🔲⚫⚫⚫⚫⚫⚫⚫⚫N" 
+	local message2 = "🔲⚫⚫⚫🔲⚫🔲⚫🔲⚫⚫⚫🔲⚫🔲⚫⚫⚫⚫⚫⚫⚫⚫I"
+	local message3 = "🔲🔲🔲⚫🔲⚫🔲⚫🔲⚫⚫⚫🔲🔲⚫⚫⚫🔲⚫🔲⚫⚫⚫G"
+	local message4 = "🔲⚫⚫⚫🔲⚫🔲⚫🔲⚫⚫⚫🔲⚫🔲⚫⚫🔲⚫🔲⚫⚫⚫G"
+	local message5 = "🔲⚫⚫⚫🔲🔲🔲⚫🔲🔲🔲⚫🔲⚫🔲⚫⚫🔲🔲🔲⚫⚫⚫A DIE"
+
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message1,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message2,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message3,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message4,"All")
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message5,"All")
+end)
+
+Main.Active = true
+Main.Selectable = true
+Main.Draggable = true
+
+while wait(0.1)do
+	TextLabel.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+	counter = counter + 0.01
+end
