@@ -323,15 +323,15 @@ uis.InputBegan:Connect(function(key)
 			debounce = 1
 		elseif debounce == 1 then
 			debounce = 2
+			Main.Visible = true
+			Main:TweenSize(UDim2.new(0.250388622, 0, 0.355328649, 0),nil,nil,0.2)
+			wait(0.2)
+			Main.Close:TweenSize(UDim2.new(1,0,0,0),nil,nil,0.2)
 			for i, v in pairs(Main:GetChildren()) do
 			if v.Name ~= "Close" then
 			v.Visible = true
 			end
 			end
-			Main.Visible = true
-			Main:TweenSize(UDim2.new(0.250388622, 0, 0.355328649, 0),nil,nil,0.2)
-			wait(0.2)
-			Main.Close:TweenSize(UDim2.new(1,0,0,0),nil,nil,0.2)
 			wait(0.2)
 			debounce = 0
 		end
