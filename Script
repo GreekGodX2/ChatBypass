@@ -293,13 +293,10 @@ Close.SliceScale = 0.060
 
 Main.Visible = false
 
-local greek = script.Parent.Greek
-local yokai = script.Parent.Yokai
-
 wait(0.5)
 
-greek:TweenPosition(UDim2.new(0.4,0,0.5,0),nil,nil,1)
-yokai:TweenPosition(UDim2.new(0.6,0,0.5,0),nil,nil,1)
+Greek_2:TweenPosition(UDim2.new(0.4,0,0.5,0),nil,nil,1)
+Yokai:TweenPosition(UDim2.new(0.6,0,0.5,0),nil,nil,1)
 
 Frame.Visible = false
 Main.Visible = true
