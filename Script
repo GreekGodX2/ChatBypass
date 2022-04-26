@@ -17,7 +17,15 @@ local TextLabel_4 = Instance.new("TextLabel")
 local FuckU = Instance.new("ImageButton")
 local TextLabel_5 = Instance.new("TextLabel")
 local Close = Instance.new("ImageLabel")
+local ChatSpam = Instance.new("ImageButton")
+local TextBox = Instance.new("TextBox")
+local Info = Instance.new("TextLabel")
 local Greek = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local Greek_2 = Instance.new("ImageLabel")
+local Yokai = Instance.new("ImageLabel")
+local Title_2 = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -36,7 +44,7 @@ Main.Image = "rbxassetid://3570695787"
 Main.ImageColor3 = Color3.fromRGB(44, 44, 44)
 Main.ScaleType = Enum.ScaleType.Slice
 Main.SliceCenter = Rect.new(100, 100, 100, 100)
-Main.SliceScale = 0.120
+Main.SliceScale = 0.060
 
 Title.Name = "Title"
 Title.Parent = Main
@@ -49,7 +57,7 @@ Title.Image = "rbxassetid://3570695787"
 Title.ImageColor3 = Color3.fromRGB(36, 36, 36)
 Title.ScaleType = Enum.ScaleType.Slice
 Title.SliceCenter = Rect.new(100, 100, 100, 100)
-Title.SliceScale = 0.120
+Title.SliceScale = 0.060
 
 TextLabel.Parent = Title
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -57,7 +65,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(0.0500000007, 0, 0.100000001, 0)
 TextLabel.Size = UDim2.new(0.899999976, 0, 0.800000012, 0)
 TextLabel.Font = Enum.Font.SourceSansBold
-TextLabel.Text = "GreekGodX Insane Chat Bypass"
+TextLabel.Text = "Leaked IP Hub"
 TextLabel.TextColor3 = Color3.fromRGB(203, 203, 203)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -67,19 +75,19 @@ NaziFlagV1.Name = "NaziFlagV1"
 NaziFlagV1.Parent = Main
 NaziFlagV1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 NaziFlagV1.BackgroundTransparency = 1.000
-NaziFlagV1.Position = UDim2.new(0.235011414, 0, 0.23109585, 0)
-NaziFlagV1.Size = UDim2.new(0.526734889, 0, 0.1050933, 0)
+NaziFlagV1.Position = UDim2.new(0.0887973085, 0, 0.223278359, 0)
+NaziFlagV1.Size = UDim2.new(0.396094829, 0, 0.0751826614, 0)
 NaziFlagV1.Image = "rbxassetid://3570695787"
 NaziFlagV1.ImageColor3 = Color3.fromRGB(36, 36, 36)
 NaziFlagV1.ScaleType = Enum.ScaleType.Slice
 NaziFlagV1.SliceCenter = Rect.new(100, 100, 100, 100)
-NaziFlagV1.SliceScale = 0.120
+NaziFlagV1.SliceScale = 0.060
 
 TextLabel_2.Parent = NaziFlagV1
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.0999998823, 0, 0.0970845893, 0)
-TextLabel_2.Size = UDim2.new(0.800000012, 0, 0.776676774, 0)
+TextLabel_2.Position = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextLabel_2.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
 TextLabel_2.Font = Enum.Font.SourceSansBold
 TextLabel_2.Text = "Nazi Flag v1"
 TextLabel_2.TextColor3 = Color3.fromRGB(203, 203, 203)
@@ -91,10 +99,10 @@ IP.Name = "IP"
 IP.Parent = Main
 IP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 IP.BackgroundTransparency = 1.000
-IP.Position = UDim2.new(0.682622492, 0, 0.910597384, 0)
-IP.Size = UDim2.new(0.306840092, 0, 0.0558987036, 0)
+IP.Position = UDim2.new(0.609819174, 0, 0.913203239, 0)
+IP.Size = UDim2.new(0.363002777, 0, 0.0558987036, 0)
 IP.Font = Enum.Font.SourceSansBold
-IP.Text = "GREEK IP: 192.168.0.14"
+IP.Text = "GREEKGODX IP: 192.168.0.14"
 IP.TextColor3 = Color3.fromRGB(203, 70, 70)
 IP.TextScaled = true
 IP.TextSize = 14.000
@@ -104,19 +112,19 @@ NaziFlagV2.Name = "NaziFlagV2"
 NaziFlagV2.Parent = Main
 NaziFlagV2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 NaziFlagV2.BackgroundTransparency = 1.000
-NaziFlagV2.Position = UDim2.new(0.235011414, 0, 0.400543869, 0)
-NaziFlagV2.Size = UDim2.new(0.526734889, 0, 0.1050933, 0)
+NaziFlagV2.Position = UDim2.new(0.0887973085, 0, 0.344499677, 0)
+NaziFlagV2.Size = UDim2.new(0.396094829, 0, 0.0751826614, 0)
 NaziFlagV2.Image = "rbxassetid://3570695787"
 NaziFlagV2.ImageColor3 = Color3.fromRGB(36, 36, 36)
 NaziFlagV2.ScaleType = Enum.ScaleType.Slice
 NaziFlagV2.SliceCenter = Rect.new(100, 100, 100, 100)
-NaziFlagV2.SliceScale = 0.120
+NaziFlagV2.SliceScale = 0.060
 
 TextLabel_3.Parent = NaziFlagV2
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.0999998823, 0, 0.0970845893, 0)
-TextLabel_3.Size = UDim2.new(0.800000012, 0, 0.776676774, 0)
+TextLabel_3.Position = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextLabel_3.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
 TextLabel_3.Font = Enum.Font.SourceSansBold
 TextLabel_3.Text = "Nazi Flag v2"
 TextLabel_3.TextColor3 = Color3.fromRGB(203, 203, 203)
@@ -128,19 +136,19 @@ Pornhub.Name = "Pornhub"
 Pornhub.Parent = Main
 Pornhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Pornhub.BackgroundTransparency = 1.000
-Pornhub.Position = UDim2.new(0.235011414, 0, 0.567762375, 0)
-Pornhub.Size = UDim2.new(0.526734889, 0, 0.1050933, 0)
+Pornhub.Position = UDim2.new(0.0887973085, 0, 0.46412611, 0)
+Pornhub.Size = UDim2.new(0.396094829, 0, 0.0751826614, 0)
 Pornhub.Image = "rbxassetid://3570695787"
 Pornhub.ImageColor3 = Color3.fromRGB(36, 36, 36)
 Pornhub.ScaleType = Enum.ScaleType.Slice
 Pornhub.SliceCenter = Rect.new(100, 100, 100, 100)
-Pornhub.SliceScale = 0.120
+Pornhub.SliceScale = 0.060
 
 TextLabel_4.Parent = Pornhub
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.Position = UDim2.new(0.0999998823, 0, 0.0970845893, 0)
-TextLabel_4.Size = UDim2.new(0.800000012, 0, 0.776676774, 0)
+TextLabel_4.Position = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextLabel_4.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
 TextLabel_4.Font = Enum.Font.SourceSansBold
 TextLabel_4.Text = "Pornhub"
 TextLabel_4.TextColor3 = Color3.fromRGB(203, 203, 203)
@@ -152,25 +160,124 @@ FuckU.Name = "FuckU"
 FuckU.Parent = Main
 FuckU.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 FuckU.BackgroundTransparency = 1.000
-FuckU.Position = UDim2.new(0.232825592, 0, 0.739439964, 0)
-FuckU.Size = UDim2.new(0.526734889, 0, 0.1050933, 0)
+FuckU.Position = UDim2.new(0.0871535689, 0, 0.586942375, 0)
+FuckU.Size = UDim2.new(0.396094829, 0, 0.0751826614, 0)
 FuckU.Image = "rbxassetid://3570695787"
 FuckU.ImageColor3 = Color3.fromRGB(36, 36, 36)
 FuckU.ScaleType = Enum.ScaleType.Slice
 FuckU.SliceCenter = Rect.new(100, 100, 100, 100)
-FuckU.SliceScale = 0.120
+FuckU.SliceScale = 0.060
 
 TextLabel_5.Parent = FuckU
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.Position = UDim2.new(0.0999998823, 0, 0.0970845893, 0)
-TextLabel_5.Size = UDim2.new(0.800000012, 0, 0.776676774, 0)
+TextLabel_5.Position = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextLabel_5.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
 TextLabel_5.Font = Enum.Font.SourceSansBold
 TextLabel_5.Text = "Fuck U"
 TextLabel_5.TextColor3 = Color3.fromRGB(203, 203, 203)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
 TextLabel_5.TextWrapped = true
+
+ChatSpam.Name = "ChatSpam"
+ChatSpam.Parent = Main
+ChatSpam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatSpam.BackgroundTransparency = 1.000
+ChatSpam.Position = UDim2.new(0.0871535689, 0, 0.714627981, 0)
+ChatSpam.Size = UDim2.new(0.838217556, 0, 0.0751826614, 0)
+ChatSpam.Image = "rbxassetid://3570695787"
+ChatSpam.ImageColor3 = Color3.fromRGB(36, 36, 36)
+ChatSpam.ScaleType = Enum.ScaleType.Slice
+ChatSpam.SliceCenter = Rect.new(100, 100, 100, 100)
+ChatSpam.SliceScale = 0.060
+
+TextBox.Parent = ChatSpam
+TextBox.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox.Size = UDim2.new(4, 0, 0.800000012, 0)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.PlaceholderColor3 = Color3.fromRGB(132, 132, 132)
+TextBox.PlaceholderText = "Chat Spam"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+Info.Name = "Info"
+Info.Parent = Main
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.Position = UDim2.new(0.0440319963, 0, 0.913203239, 0)
+Info.Size = UDim2.new(0.323480874, 0, 0.0558987036, 0)
+Info.Font = Enum.Font.SourceSansBold
+Info.Text = "[Right Ctrl] to close GUI"
+Info.TextColor3 = Color3.fromRGB(203, 203, 203)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+Greek.Name = "Greek"
+Greek.Parent = GreekGodXChatBypass
+Greek.AnchorPoint = Vector2.new(0.5, 0.5)
+Greek.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Greek.Position = UDim2.new(0.5, 0, 0.5, 0)
+Greek.Size = UDim2.new(0.0929162204, 0, 0.154206097, 0)
+Greek.Visible = false
+Greek.Image = "http://www.roblox.com/asset/?id=9415942818"
+
+Frame.Parent = GreekGodXChatBypass
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Size = UDim2.new(1, 0, 1, 0)
+
+Greek_2.Name = "Greek"
+Greek_2.Parent = Frame
+Greek_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Greek_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Greek_2.BorderSizePixel = 0
+Greek_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Greek_2.Size = UDim2.new(0.0700000003, 0, 0.129999995, 0)
+Greek_2.Image = "http://www.roblox.com/asset/?id=9415942818"
+
+Yokai.Name = "Yokai"
+Yokai.Parent = Frame
+Yokai.AnchorPoint = Vector2.new(0.5, 0.5)
+Yokai.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Yokai.BorderSizePixel = 0
+Yokai.Position = UDim2.new(0.5, 0, 0.5, 0)
+Yokai.Size = UDim2.new(0.0700000003, 0, 0.129999995, 0)
+Yokai.Image = "http://www.roblox.com/asset/?id=9415882921"
+
+Title_2.Name = "Title"
+Title_2.Parent = Frame
+Title_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.BorderSizePixel = 0
+Title_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Title_2.Size = UDim2.new(0.100000001, 0, 0.129999995, 0)
+Title_2.Image = "rbxassetid://3570695787"
+Title_2.ImageColor3 = Color3.fromRGB(36, 36, 36)
+Title_2.ScaleType = Enum.ScaleType.Slice
+Title_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Title_2.SliceScale = 0.060
+
+TextLabel_6.Parent = Title_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0500000007, 0, 0.100000001, 0)
+TextLabel_6.Size = UDim2.new(0.899999976, 0, 0.800000012, 0)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Leaked IP Hub"
+TextLabel_6.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
 
 Close.Name = "Close"
 Close.Parent = Main
@@ -182,20 +289,19 @@ Close.Size = UDim2.new(1, 0, 0, 0)
 Close.Image = "rbxassetid://3570695787"
 Close.ScaleType = Enum.ScaleType.Slice
 Close.SliceCenter = Rect.new(100, 100, 100, 100)
-Close.SliceScale = 0.120
-
-Greek.Name = "Greek"
-Greek.Parent = GreekGodXChatBypass
-Greek.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Greek.Position = UDim2.new(0.455829322, 0, 0.421538949, 0)
-Greek.Size = UDim2.new(0.0929162204, 0, 0.154206097, 0)
-Greek.Visible = false
-Greek.Image = "http://www.roblox.com/asset/?id=9415942818"
+Close.SliceScale = 0.060
 
 Main.Visible = false
-Greek.Visible = true
-wait(2)
-Greek.Visible = false
+
+local greek = script.Parent.Greek
+local yokai = script.Parent.Yokai
+
+wait(0.5)
+
+greek:TweenPosition(UDim2.new(0.4,0,0.5,0),nil,nil,1)
+yokai:TweenPosition(UDim2.new(0.6,0,0.5,0),nil,nil,1)
+
+Frame.Visible = false
 Main.Visible = true
 
 local uis = game:GetService("UserInputService")
@@ -308,12 +414,35 @@ FuckU.MouseButton1Click:Connect(function()
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message5,"All")
 end)
 
+local spam = 0
+
+TextBox.Focused:Connect(function()
+	spam = 1
+end)
+TextBox.FocusLost:Connect(function()
+	spam = 0
+end)
+
+spawn(function()
+	while wait(0.1)do
+		TextLabel.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+		counter = counter + 0.01
+	end
+end)
+
+spawn(function()
+while true do
+	wait(2.2)
+	if TextBox.Text ~= nil and spam == 0 then
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(TextBox.Text,"All")
+	else
+
+	end
+end
+end)
+
 Main.Active = true
 Main.Selectable = true
 Main.Draggable = true
 
-while wait(0.1)do
-	TextLabel.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
-
-	counter = counter + 0.01
-end
