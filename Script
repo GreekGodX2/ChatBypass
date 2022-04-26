@@ -20,12 +20,14 @@ local Close = Instance.new("ImageLabel")
 local ChatSpam = Instance.new("ImageButton")
 local TextBox = Instance.new("TextBox")
 local Info = Instance.new("TextLabel")
+local Bitch = Instance.new("ImageButton")
+local TextLabel_6 = Instance.new("TextLabel")
 local Greek = Instance.new("ImageLabel")
 local Frame = Instance.new("Frame")
 local Greek_2 = Instance.new("ImageLabel")
 local Yokai = Instance.new("ImageLabel")
 local Title_2 = Instance.new("ImageLabel")
-local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -221,6 +223,30 @@ Info.TextScaled = true
 Info.TextSize = 14.000
 Info.TextWrapped = true
 
+Bitch.Name = "Bitch"
+Bitch.Parent = Main
+Bitch.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bitch.BackgroundTransparency = 1.000
+Bitch.Position = UDim2.new(0.528364539, 0, 0.222126231, 0)
+Bitch.Size = UDim2.new(0.396094829, 0, 0.0751826614, 0)
+Bitch.Image = "rbxassetid://3570695787"
+Bitch.ImageColor3 = Color3.fromRGB(36, 36, 36)
+Bitch.ScaleType = Enum.ScaleType.Slice
+Bitch.SliceCenter = Rect.new(100, 100, 100, 100)
+Bitch.SliceScale = 0.060
+
+TextLabel_6.Parent = Bitch
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextLabel_6.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Bitch"
+TextLabel_6.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
 Greek.Name = "Greek"
 Greek.Parent = GreekGodXChatBypass
 Greek.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -234,6 +260,7 @@ Frame.Parent = GreekGodXChatBypass
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.Size = UDim2.new(1, 0, 1, 0)
+Frame.Visible = false
 
 Greek_2.Name = "Greek"
 Greek_2.Parent = Frame
@@ -267,17 +294,17 @@ Title_2.ScaleType = Enum.ScaleType.Slice
 Title_2.SliceCenter = Rect.new(100, 100, 100, 100)
 Title_2.SliceScale = 0.060
 
-TextLabel_6.Parent = Title_2
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.Position = UDim2.new(0.0500000007, 0, 0.100000001, 0)
-TextLabel_6.Size = UDim2.new(0.899999976, 0, 0.800000012, 0)
-TextLabel_6.Font = Enum.Font.SourceSansBold
-TextLabel_6.Text = "Leaked IP Hub"
-TextLabel_6.TextColor3 = Color3.fromRGB(203, 203, 203)
-TextLabel_6.TextScaled = true
-TextLabel_6.TextSize = 14.000
-TextLabel_6.TextWrapped = true
+TextLabel_7.Parent = Title_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0500000007, 0, 0.100000001, 0)
+TextLabel_7.Size = UDim2.new(0.899999976, 0, 0.800000012, 0)
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Leaked IP Hub"
+TextLabel_7.TextColor3 = Color3.fromRGB(203, 203, 203)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
 
 Close.Name = "Close"
 Close.Parent = Main
@@ -292,6 +319,7 @@ Close.SliceCenter = Rect.new(100, 100, 100, 100)
 Close.SliceScale = 0.060
 
 Main.Visible = false
+Frame.Visible = true
 
 wait(0.5)
 
@@ -421,6 +449,20 @@ FuckU.MouseButton1Click:Connect(function()
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message3,"All")
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message4,"All")
 	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message5,"All")
+end)
+
+Bitch.MouseButton1Click:Connect(function()
+local message1 = "🔴🔴🔴⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫" 
+local message2 = "🔴⚫⚫🔴⚫⚫🔴⚫⚫🔴🔴🔴⚫⚫⚫🔴🔴⚫⚫🔴⚫🔴⚫"
+local message3 = "🔴🔴🔴⚫⚫⚫⚫⚫⚫⚫🔴⚫⚫⚫🔴⚫⚫⚫⚫🔴🔴🔴⚫"
+local message4 = "🔴⚫⚫🔴⚫⚫🔴⚫⚫⚫🔴⚫⚫⚫🔴⚫⚫⚫⚫🔴⚫🔴⚫"
+local message5 = "🔴🔴🔴⚫⚫⚫🔴⚫⚫⚫🔴⚫⚫⚫⚫🔴🔴⚫⚫🔴⚫🔴⚫"
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message1,"All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message2,"All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message3,"All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message4,"All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message5,"All")
 end)
 
 local spam = 0
