@@ -3,8 +3,6 @@
 
 -- Instances:
 
-wait(2)
-
 local GreekGodXChatBypass = Instance.new("ScreenGui")
 local Main = Instance.new("ImageLabel")
 local Title = Instance.new("ImageLabel")
