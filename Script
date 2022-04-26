@@ -26,10 +26,11 @@ GreekGodXChatBypass.Parent = game.CoreGui
 
 Main.Name = "Main"
 Main.Parent = GreekGodXChatBypass
+Main.AnchorPoint = Vector2.new(0.5, 0.5)
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BackgroundTransparency = 1.000
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.283343047, 0, 0.291855454, 0)
+Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 Main.Size = UDim2.new(0.250388622, 0, 0.355328649, 0)
 Main.Image = "rbxassetid://3570695787"
 Main.ImageColor3 = Color3.fromRGB(44, 44, 44)
